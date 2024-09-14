@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#519E8A ;
+    text-align: center;
+    margin:5px;
+}
+
+.container{
+    height:50vh;
+    display: flex;
+    justify-content:center;
+    margin:40px;
+}
+
+.game{
+    height:50vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 8px;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.box{
+    height:15vmin;
+    width: 16vmin;
+    border-radius: 10px;
+      box-shadow: 0 0 5px;
+      font-size:50px;
+      color:#2D0320;
+
+      background-color:#F8F7FF;
+
+    
+}
+
+#nwgme_btn{
+    border-radius:10px;
+    background-color:#645E9D;
+    color: white;
+   padding:10px;
+   box-shadow:0 0 15px;
+}
+
+
+#msg{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.hide{
+    display: none;
+}
